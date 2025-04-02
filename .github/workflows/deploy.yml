@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4 # Fetch the code from the repo
       
       - name: Install Git, Node.js and npm # Git is not on Alpine by default 
-        run: apk add --no-cache git nodejs=22.* npm
+        run: apk add --no-cache git nodejs=>22 npm
 
       - name: Cache npm dependencies
         uses: actions/cache@v4
