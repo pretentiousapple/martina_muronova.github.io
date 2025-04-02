@@ -51,6 +51,7 @@ Error generating stack: `+u.message+`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: 2px dashed #f6cf6f;
   `,Header:er.h1`
     color: #c1c1e5; 
