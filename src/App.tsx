@@ -17,6 +17,7 @@ const S = {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: 2px dashed #f6cf6f;
   `,
 
