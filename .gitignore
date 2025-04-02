@@ -24,3 +24,13 @@ dist-ssr
 *.sln
 *.sw?
 
+# TypeScript build info (optional)
+*.tsbuildinfo
+
+# Cache and temp files
+*.cache
+
+# Dependencies
+package.json
+package-lock.json
+
